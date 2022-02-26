@@ -334,7 +334,7 @@ scego <- enrichGO(OrgDb="org.Mm.eg.db", gene = rownames(result1$PUI),
                   pvalueCutoff = 0.05,qvalueCutoff = 0.05, readable= TRUE)
 barplot(scego,showCategory = 10)
 ```
-
+![image](https://github.com/qlw-05/pythontest/blob/master/pictures/Rplot5.png)
 
 Session Information
 ---------------
