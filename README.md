@@ -272,7 +272,7 @@ data$number <- c(table(mod$modalities),table(mod2$modalities),table(mod3$modalit
 ggplot(data, aes(x=celltype, y=number)) +
 ggplot2::geom_bar(stat = "identity", position = "dodge", aes(fill=modality))
 ```
-
+![image](https://github.com/qlw-05/pythontest/blob/master/pictures/Rplot1.png)
 * Distribution of usage modalties at diﬀerent stages of diﬀerentiation
 ```
 library(ggplot2)
@@ -287,7 +287,7 @@ sampling.plan = "jointMulti",
 ggtheme = hrbrthemes::theme_ipsum_pub(),
 legend.title = "condition", messages = F, palette = "Set2")
 ```
-
+![image](https://github.com/qlw-05/pythontest/blob/master/pictures/Rplot2.png)
 * Changes in the modalities of diﬀerent cell diﬀerentiation stages
 ```
 library(extrafont)
@@ -300,7 +300,7 @@ sampling.plan = "jointMulti",
 ggtheme = hrbrthemes::theme_ipsum_pub(),
 legend.title = "condition", messages = F, palette = "Set2")
 ```
-
+![image](https://github.com/qlw-05/pythontest/blob/master/pictures/Rplot3.png)
 * Visualize the distribution of PA expression according to the components
 ```
 # heatmap
@@ -325,7 +325,7 @@ plotGenePACount3(org.Mm.eg.db, genename$ENTREZID, tUTR.pair.cd.tmp,
 There was a problem when running diffusion map. Trying PCA instead...
 The standard deviations of PC1: 1.230856
 ```
-
+![image](https://github.com/qlw-05/pythontest/blob/master/pictures/Rplot4.png)
 * GO analysis
 ```
 library(clusterProfiler)
